@@ -1,0 +1,93 @@
+.car {
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #1b1b1b;
+  &__card {
+    width: 400px;
+    padding: 25px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    &-img {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+    }
+    &-title {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    &-amount {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &-list-title {
+      margin: 20px 0 20px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      &:not(:first-of-type) {
+        margin-top: 10px;
+      }
+      &-btn {
+        padding: 7px 15px;
+        margin-right: 15px;
+        font-size: 25px;
+        line-height: 15px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(255, 116, 139);
+      }
+    }
+  }
+  &__features {
+    width: 400px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    &-title {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    &-list {
+      margin-top: 20px;
+      list-style-type: none;
+      &-text {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      &:not(:first-of-type) {
+        margin-top: 10px;
+      }
+      &-btn {
+        padding: 7px 15px;
+        margin-right: 15px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(255, 116, 139);
+      }
+    }
+    &-amount {
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
